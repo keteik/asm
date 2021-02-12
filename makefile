@@ -1,3 +1,3 @@
 start:
-	nasm -f elf src/a.asm
-	ld -m elf_i386 src/a.o -o bin/a
+	nasm -f elf src/execve_clear.asm
+	ld -m elf_i386 src/execve_clear.o -o bin/execve_clear
